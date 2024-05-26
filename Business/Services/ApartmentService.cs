@@ -53,7 +53,7 @@ namespace Business.Services
         {
             try
             {
-                return await _context.Apartments.ToListAsync();
+                return await _context.Apartments.FromSqlRaw("EXEC [dbo].[Apartment_ReadAll]").ToListAsync();
             }
             catch (Exception ex)
             {
