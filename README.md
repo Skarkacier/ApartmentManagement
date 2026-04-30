@@ -33,10 +33,13 @@ Projenin tüm endpoint'lerini Swagger arayüzü üzerinden test edebilirsiniz. A
 
 ### 1. Swagger Genel Bakış
 Tüm API dökümantasyonu ve endpoint listesi.
-![Swagger Genel Görünüm]([EKRAN_GORUNTUSU_LINKI_BURAYA])
+![Swagger Genel Görünüm](./screenshots/Screenshot%202026-04-30%20161106.jpg)
 
 ### 2. Daire ve Kullanıcı Yönetimi
 Daire ekleme, silme ve sakin bilgilerini güncelleme işlemleri.
-![Daire Yönetimi]([EKRAN_GORUNTUSU_LINKI_BURAYA])
+![Daire Ekleme](./screenshots/apartment_post.jpg)
+![Daire Güncelleme](./screenshots/apartment_put.jpg)
+![Daire Listeleme](./screenshots/apartment_get.jpg)
+
 
 ---
